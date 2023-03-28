@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-image: url(img/soma.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.soma{
+  display: flex;
+  flex-direction: column;
+  max-width: 20rem;
+  background-color: #d49a8b63;
+  border: solid 0.5rem #D4998B;
+  border-radius: 2rem;
+  padding: 2rem;
+  margin-left: 32rem;
+  margin-top: 8rem;
+}
+
+h1{
+  color: #3f5772;
+  font-size: 2rem;
+  text-align: center;
+}
+
+input{
+  background-color: #f5a11ad8;
+  border-radius: 10rem;
+  border: none;
+  padding: 0.4rem;
+  width: 5rem;
+  margin-left: 5rem;
+}
+
+#valor1{
+  background-color: #81A1AF;
+  color: #e4e4e4;
+  text-align: center;
+  width: 10rem;
+  margin-left: 2.5rem;
+  margin-top: 0.5rem;
+}
+
+#valor2{
+  background-color: #81A1AF;
+  color: #e4e4e4;
+  text-align: center;
+  width: 10rem;
+  margin-left: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.more{
+  color: #3f5772;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+div#resp{
+  color: #3f5772;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+footer{
+  background-color: #d49a8b63;
+  color: #3f5772;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  top: 7.6rem;
+  padding: 0.4rem; 
+}
